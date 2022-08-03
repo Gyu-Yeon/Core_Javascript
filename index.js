@@ -6,3 +6,11 @@ let b = a;
 let obj1 = { a: 1, b: 3};
 let obj2 = obj1;
 
+
+let d = 5;
+let e = 5;
+d = 7;
+
+let obj3 = {a: 1, b: 4};
+obj3.a = 4;
+console.log(obj3);
